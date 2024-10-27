@@ -1,0 +1,63 @@
+/* table1************ */
+/* src/components/UniversityTable.css */
+.omsk-cont{
+    padding: 20px 100px;
+}
+.table-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+ .omsk-cont h1,h2{
+    margin:20px 0px ;
+   
+  }
+  .omsk-cont p{
+    margin: 10px 10px;
+    line-height: 1.3;
+  }
+  .university-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x:scroll  ;
+  }
+  .university-table tr{
+    display:flex ;
+    flex-direction: row;
+  }
+  
+  .university-table th,
+  .university-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    min-width: 100px;
+   
+  }
+  
+  .university-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  @media (max-width:800px) {
+    .omsk-cont{
+        padding: 10px 10px;
+    }
+    
+  }
+  /* *******table2******* */
+/* src/components/FeeTable.css */
+/* src/components/FeeTable.css */
+
+.table-container2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-x: scroll;
+  }
+  .section ul li{
+    margin: 5px 0px;
+  }
+  
+  
+
+    
+

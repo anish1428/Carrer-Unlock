@@ -1,0 +1,22 @@
+.scroll-arrow{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    border-radius: 50%;
+    background-color: #153768;
+    /* background-color: red; */
+    padding: 10px 12px;
+    display: none;
+}
+.display{
+    display: block;
+}
+.scroll-arrow i{
+  font-size: 30px;
+  color: white;
+  align-items: center;
+
+}
+.russia-cont{
+  margin-top: 150px;
+}

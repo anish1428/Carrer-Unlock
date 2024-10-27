@@ -1,0 +1,105 @@
+.perm-cont{
+   width: 100vw;
+   box-sizing: border-box;
+   padding: 20px 100px;
+
+}
+.perm-cont p{
+    line-height: 1.3;
+    margin-left: 20px;
+}
+.perm-cont h1{
+    margin: 10px 0px;
+}
+@media (max-width:500px){
+    .perm-cont{
+        padding: 20px 20px;
+    }
+
+}
+/* *********TABLE********** */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .responsive-table .attribute {
+    font-weight: bold;
+    background-color: #f0f0f0;
+    min-width: 150px;
+    padding: 10px;
+  }
+  
+  .responsive-table .detail {
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+   
+    
+    .responsive-table .attribute, .responsive-table .detail {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    
+    .responsive-table .attribute {
+      border-bottom: 1px solid #ddd;
+    }
+    .perm-cont{
+      padding: 10px 20px;
+  }
+
+  }
+  @media (max-width:500px){
+    .perm-cont{
+        padding: 10px 20px;
+    }
+
+}
+/* **********TABLE2********** */
+.fees-table-container {
+    max-width: 100%;
+    overflow-x: scroll; /* Enable horizontal scrollbar */
+  }
+  
+  .fees-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    overflow: scroll;
+    flex-direction: column;
+  }
+  
+  .fees-table th, .fees-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+
+    
+  }
+  
+  .total-row {
+    background-color: #f2f2f2;
+  }
+  .perm-details h2,h4{
+    margin: 20px 0px;
+  }
+  @media (max-width:800px) {
+    .fees-table th, .fees-table td {
+        min-width: 200px;
+    }
+    .fees-table tr,th{
+        display: flex;
+        flex-direction: row;
+    }
+
+  }
+  
+  

@@ -1,0 +1,22 @@
+.eng-cont{
+  
+    box-sizing: border-box;
+    margin-top: 150px;
+    box-sizing: border-box;
+    
+}
+.scolar{
+    position: fixed;
+    bottom: 40px;
+    right:5px ;
+}
+.scolar img{
+    width: 200px;
+    z-index: 100;
+}
+@media (max-width:500px) {
+    .scolar img{
+        width: 150px;
+        z-index: 100;
+    }
+}

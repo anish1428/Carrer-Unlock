@@ -1,0 +1,91 @@
+.about-cont6{
+    margin-top: 150px;
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fafafa;
+    color: #000f38;
+    
+}
+.about-cont6 ul{
+    list-style-position: inside;
+}
+.about-cont6 p,ul{
+    margin-left: 30px;
+}
+.our-collegescont{
+    width: 100vw;
+    height: auto;
+    background:#fff;
+    color: #153768;
+}
+.line5{
+    /* margi-bottom: 50px; */
+    width: 80%;
+    height: 2px;
+    margin: 20px auto;
+    background-color: rgb(74, 71, 71);
+  }
+  .our-collegescont{
+    
+    padding: 20px 100px;
+    height: auto;
+    width: 100vw;
+  }
+  .our-collegescont ul{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .map{
+    width: 100vw;
+    height: auto;
+   padding: 10px 10px;
+  }
+  .map iframe{
+    width: 100%;
+    height: 50vh;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Lobster&display=swap');
+
+.about-cont6 h1 {
+    font-family: 'Lobster', cursive;
+    color: #2c3e50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-cont6 h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #2980b9;
+    font-weight: 700;
+    font-size: 2.5em;
+    border-bottom: 2px solid #2980b9;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+@media (max-width:800px) {
+    .about-cont6{
+        width: 100vw;
+        padding: 10px;
+    }
+}
+@media (max-width:500px) {
+    .about-cont6{
+        padding: 10px 10px;
+        
+    }
+    .our-collegescont{
+        padding: 10px 10px;
+    }
+    .our-collegescont ul{
+        flex-direction: column;
+    }
+}

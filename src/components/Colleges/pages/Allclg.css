@@ -1,0 +1,51 @@
+.image{
+    margin: 20px 0px;
+    height: 500px;
+}
+
+/* .show-more-btn {
+    border: none;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #153768, #1c4e8a);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.show-more-btn:hover {
+    background: linear-gradient(135deg, #1c4e8a, #153768);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+} */
+.show-more-btn {
+    border: 1px solid #0d274f; /* Slightly darker border for better contrast */
+    margin-top: 20px;
+    background: linear-gradient(135deg, #153768, #1c4e8a);
+    color: #fff;
+    padding: 12px 24px; /* Increased padding for a more substantial button */
+    font-size: 16px;
+    font-weight: bold; /* Makes the text stand out more */
+    border-radius: 8px; /* More rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow for better depth */
+    cursor: pointer;
+    transition: background 0.4s ease, box-shadow 0.4s ease, transform 0.2s ease, color 0.4s ease;
+    text-transform: uppercase; /* Makes the text uppercase for a more professional look */
+}
+
+.show-more-btn:hover {
+    background: linear-gradient(135deg, #1c4e8a, #153768);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    transform: translateY(-3px); /* Slight upward movement on hover */
+    color: #ffeb3b; /* Color change on hover for contrast */
+}
+
+@media (max-width:800px) {
+    .image{
+        height: 400px;
+    }
+  
+}

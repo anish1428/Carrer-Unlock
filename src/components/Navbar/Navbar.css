@@ -1,0 +1,244 @@
+
+    .hideit{
+      opacity:0 ;
+     
+    }
+       
+    nav {
+      width: 100vw;
+      color: #fff;
+      /* padding: 4px 0px; */
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 10;
+      background: #153768;
+      box-sizing: border-box;
+    }
+    .upper-navbar{
+      display: flex;
+      justify-content: space-evenly;
+      width: 100vw;
+      padding: 15px 0px;
+      background: rgb(155, 189, 203);
+      color: #254978;
+    }
+    .upper-navbar img{
+      width: 30px;
+    }
+    .gap{
+      display: flex;
+      gap: 0px 10px;
+      align-items: center;
+      
+    }
+    .down-navbar{
+      width: 100vw;
+      padding: 4px 100PX;
+      /* background-color: red; */
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .down-navbar .logo {
+      width: 180px;
+    }
+    
+   
+    
+    nav ul {
+      display: flex;
+      align-items: center;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      list-style: none;
+      margin: 5px 20px;
+      font-size: 16px;
+      border-radius: 10px;
+      padding: 5px;
+      position: relative;
+      cursor: pointer;
+      
+    }
+    
+ 
+    
+    .active {
+      /* background-color: #102d54; */
+       background-color: #4682B4;
+      padding: 10px;
+      border-radius: 15px;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.586); 
+      
+    }
+    
+   #menu{
+    width: 40px;
+   } 
+    
+    .menu {
+      display: none;
+      cursor: pointer;
+      
+    }
+
+    
+    .close-menu {
+      display: none;
+      cursor: pointer;
+      filter:invert(0.9);
+      
+  
+    }
+    
+    
+    .dropdown {
+      position: relative;
+    }
+    
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 120%;
+      border-radius: 10px ;
+      /* background-color: #153768; */
+      background-color: #153768;  
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+    
+     .dropdown-menu,
+    .dropdown .dropdown-menu.show {
+      display: block;
+    }
+    
+    .dropdown-menu li {
+      width: 80%;
+      padding: 10px 20px;
+      /* background-color: red; */
+      border: 2px solid white;
+    }
+    
+    /* .dropdown-menu li:hover {
+      background-color: #102d54;
+    } */
+     #register{
+       background-color: #fff;
+       padding: 10px 20px;
+       color: #102d54;
+       font-weight: bold;
+     }
+     #register:hover{
+       color: #fff;
+       padding: 10px 20px;
+       background: #102d54;
+       font-weight: bold;
+     }
+    @media (max-width: 850px) {
+      nav {
+        /* padding: 10px 0px; */
+      }
+    
+      nav ul {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        /* background: #153868ce; */
+        background: #153868e5;
+        z-index: -1;
+        width: 200px;
+        /* padding-top: 70px; */
+        flex-direction: column;
+        transition: 0.5s;
+        overflow: hidden; 
+      }
+    
+      nav ul li {
+        display: block;
+        margin: 25px 0;
+        
+      }
+    
+      .menu {
+        display: block;
+        width: 30px;
+      }
+    
+      .close-menu {
+        display: block;
+        width: 30px;
+        margin: 20px auto;
+      }
+    
+      .hide-menu {
+        right: -200px;
+      }
+    
+      .show-menu {
+        right: 0;
+        z-index: 5;
+      }
+   
+      .dropdown-menu {
+        position: relative;
+        background-color: #153868e5;
+        box-shadow: none;
+        top: 0%;
+       
+      }
+      
+      .dropdown-menu ul li{
+        margin-top: 0px;
+        background-color: #102d54;
+      }
+      .courses-34{
+        /* background-color: red; */
+        margin-left: 20px;
+      }
+      .logo img {
+        width: 120px;
+      
+      }
+      .down-navbar{
+        padding:  20px 50px;
+      }
+      .upper-navbar{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 20px 15px;
+        gap: 10px 0px;
+       
+      }
+      .upper-navbar img{
+        width: 25px;
+      }
+      
+    }
+    @media (max-width:800px) {
+      .upper-navbar{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100vw;
+        padding: 10px 0px;
+        background: rgb(155, 189, 203);
+        color: #254978;
+      }
+      .down-navbar{
+       
+        padding: 10px 30px;
+        
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    
+    
+    

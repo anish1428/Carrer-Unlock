@@ -1,0 +1,50 @@
+.collegelist-cont{
+    margin-top: 50px;
+    width: 100vw;
+    height: auto;
+    padding: 20px 100px;
+    
+    
+}
+.collegelist-cont p{
+    color: red;
+}
+.collegelist-cont ul{
+    list-style: circle;
+
+}
+.collegelist-cont ul li{
+    margin-top: 10px;
+    text-decoration: underline;
+}
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Lobster&display=swap');
+
+.collegelist-cont h1 {
+    font-family: 'Lobster', cursive;
+    color: #2c3e50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.collegelist-cont h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #2980b9;
+    font-weight: 700;
+    font-size: 2.5em;
+    border-bottom: 2px solid #2980b9;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width:800px) {
+   .collegelist-cont{
+    padding: 10px;
+   }
+
+}

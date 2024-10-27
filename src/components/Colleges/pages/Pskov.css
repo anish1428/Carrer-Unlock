@@ -1,0 +1,83 @@
+.pskov-cont{
+    margin-top: 60px;
+    padding: 20px 100px;
+    width: 100vw;
+    height: auto;
+   
+}
+.pskov-cont h1{
+    margin: 20px;
+}
+.pskov-cont p{
+    line-height: 1.3;
+    margin-left: 20px;
+}
+@media (max-width:800px) {
+    .pskov-cont{
+        padding: 10px ;
+    }
+    .pskov-cont h1{
+        margin: 10px;
+    }
+
+}
+/* *************firsttable*************** */
+/* Responsive CSS for the table */
+.table-container {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  
+  .info-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .info-table td, .info-table th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .info-table .label {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  /* **********second table********* */
+  /* Basic CSS for styling */
+.fees-table-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .fees-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .fees-table th, .fees-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .fees-table th {
+    background-color:#153768;
+  }
+  
+  .pskov-cont p {
+    margin-bottom: 15px;
+  }
+  .pskov-cont ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  .pskov-cont li {
+    margin-bottom: 8px;
+  }
+  
+  
+  

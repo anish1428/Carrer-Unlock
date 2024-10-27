@@ -1,0 +1,31 @@
+.colleges-cont{
+    padding: 20px 100px;
+    width: 100vw;
+    height: auto;
+}
+.scroll-arrow{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    border-radius: 50%;
+    background-color: #153768;
+    padding: 10px 12px;
+    display: none;
+}
+.colleges-cont p{
+    margin-top: 10px;
+}
+.display{
+    display: block;
+}
+.scroll-arrow i{
+  font-size: 30px;
+  color: white;
+  align-items: center;
+
+}
+@media (max-width:800px) {
+    .colleges-cont{
+        padding: 10px;
+    }
+}

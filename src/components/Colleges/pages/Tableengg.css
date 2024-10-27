@@ -1,0 +1,68 @@
+.table-container {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    overflow-x: auto; /* Add this to enable horizontal scrolling on small screens */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%; /* Change this to 100% to make it responsive */
+    margin: 0 auto;
+  }
+  
+  th {
+    background-color: #153768;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 600px) {
+    th, td {
+      padding: 10px;
+      display: block;
+      text-align: right;
+    }
+  
+    th {
+      text-align: left;
+      background-color: #153768;
+      color: white;
+      padding: 10px;
+    }
+  
+    td {
+      text-align: left;
+      padding: 10px;
+      border: none;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      float: left;
+      text-transform: uppercase;
+    }
+  
+    tr {
+      display: block;
+      margin-bottom: 15px;
+    }
+  }
+  

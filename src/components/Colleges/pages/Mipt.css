@@ -1,0 +1,31 @@
+.mipttb-cont{
+    display: flex;
+    
+
+    width: fit-content;
+
+    box-sizing: border-box;
+    
+    
+    
+}
+.mipttb-cont h1{
+    background-color: #153768;
+    color: #fff;
+    /* padding: 5px; */
+}
+.mipttb-row{
+    border: 1px solid rgb(94, 92, 92);
+}
+
+.centre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:600px) {
+    .mipttb-cont h1{
+        font-size: 25px;
+        text-align: center;
+    }
+}
